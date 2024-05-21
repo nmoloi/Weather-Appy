@@ -1,0 +1,71 @@
+body {
+  background: rgb(236, 211, 236);
+}
+
+.content {
+  display: block;
+  margin: 50px;
+  padding: 20px;
+  background-color: rgb(187, 101, 180);
+  max-width: 700px;
+  border-radius: 20px;
+  color: white;
+  text-align: center;
+}
+header {
+  display: block;
+  margin: 0 auto;
+}
+.inputBar {
+  background-color: rgb(245, 228, 245);
+  margin: 0px 20px;
+  max-width: 100%;
+  font-size: 20px;
+  border: 0px;
+  border-radius: 6px;
+  padding: 10px;
+  color: rgb(187, 101, 180);
+}
+.searchBtn {
+  background-color: rgb(236, 211, 236);
+  margin: 5px;
+  padding: 10px;
+  border: 1px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+h1 {
+  font-size: 70px;
+  margin: 20px;
+}
+.temperature {
+  margin: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.emoji {
+  font-size: 40px;
+  position: relative;
+  right: -150px;
+  top: 10px;
+}
+.temperatureValue {
+  font-weight: bold;
+  font-size: 70px;
+}
+.temperatureUnit {
+  font-size: 20px;
+  position: relative;
+  left: -150px;
+  top: 10px;
+}
+.date {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.weather {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}

@@ -7,21 +7,41 @@
     <title>Weather appy</title>
   </head>
   <body>
-    <header>
-      <form>
-        <input type="text" placeholder="Search your city!" autofocus="on" />
-        <input type="submit" value="search" />
-      </form>
-    </header>
-    <main>
-      <h1>Durban</h1>
-      <span>☀️ 20°C </span>
-      <div>Teusday 12:50 21 May</div>
-      <div>humidity: 70% wind: 3km/h clouds</div>
-    </main>
-    <footer>
-      coded by Nana Moloi, open-sourced on github and hosted on netlify
-    </footer>
+    <section class="content">
+      <header>
+        <form>
+          <input
+            class="inputBar"
+            type="text"
+            placeholder="Search your city!"
+            autofocus="on"
+            required
+          />
+          <input type="submit" value="search" class="searchBtn" />
+        </form>
+        <h1>Durban</h1>
+      </header>
+      <main>
+        <div class="temperature">
+          <span class="emoji">☀️</span>
+          <span class="temperatureValue">20 </span>
+          <span class="temperatureUnit">°C</span>
+        </div>
+        <div class="date">
+          <div>Teusday</div>
+          <div>12:50</div>
+          <div>21 May</div>
+        </div>
+        <div class="weather">
+          <div>humidity: 70%</div>
+          <div>wind: 3km/h</div>
+          <div>clouds</div>
+        </div>
+      </main>
+      <footer>
+        coded by Nana Moloi, open-sourced on github and hosted on netlify
+      </footer>
+    </section>
     <script src="src/app.js"></script>
   </body>
 </html>
