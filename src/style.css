@@ -40,7 +40,7 @@ h1 {
   margin: 20px;
 }
 .temperature {
-  margin: 20px;
+  margin: 25px;
   display: flex;
   justify-content: space-between;
 }
@@ -60,13 +60,22 @@ h1 {
   left: -150px;
   top: 10px;
 }
-.date {
+ul {
+  list-style-type: none;
+  font-size: 20px;
+  font-weight: 500px;
+}
+.weatherDetails {
   display: flex;
-  justify-content: space-between;
-  padding: 20px;
+  justify-content: space-around;
+}
+.date {
+  position: relative;
+  left: -140px;
+  top: 20px;
 }
 .weather {
-  display: flex;
-  justify-content: space-between;
-  padding: 20px;
+  position: relative;
+  left: 90px;
+  top: -72px;
 }
