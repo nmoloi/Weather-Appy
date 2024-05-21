@@ -15,6 +15,7 @@ body {
 header {
   display: block;
   margin: 0 auto;
+  padding-top: 20px;
 }
 .inputBar {
   background-color: rgb(245, 228, 245);
