@@ -8,11 +8,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap" rel="stylesheet">
-  </head>
+ <script src="https://unpkg.com/axios/dist/axios.min.js"></script
+</head>
   <body>
     <section class="content">
       <header>
-        <form>
+        <form id="search-form">
           <input
             class="inputBar"
             type="text"
@@ -21,7 +22,7 @@
             required
             id="input-bar"
           />
-          <input type="submit" value="search" class="searchBtn" id="search-btn"/>
+          <input type="submit" value="search" class="searchBtn"/>
         </form>
         <h1>Durban</h1>
       </header>
@@ -36,7 +37,7 @@
         <ul class="date">
           <li id="day">tuesday</li>
           <li id="time" >03:11</li>
-          <li id="date ">12 may</li>
+          <li id="current-date">8 Jan</li>
         </ul>
         <ul class="weather">
           <li id="humidity">humidity:70%</li>
