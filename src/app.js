@@ -19,6 +19,9 @@ function displayWeather(response) {
   let temperatureValue = document.querySelector("#temperature-value");
   temperatureValue.innerHTML = Math.round(response.data.temperature.current);
 
+  let icon = document.querySelector("#icon");
+  icon.innerHTML = `<img src="${response.data.condition.icon_url}" class= icon"/>`;
+
   let humidity = document.querySelector("#humidity");
   let humidityValue = Math.round(response.data.temperature.humidity);
   humidity.innerHTML = `humidity: ${humidityValue}%`;
